@@ -1,0 +1,87 @@
+package proj1;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class AyurvedaDoshaAnalysis {
+    public static void main(String[] args) {
+        Map<String, DoshaQuestion> questionsAndAnswers = new HashMap<>();
+        questionsAndAnswers.put("How would you describe your body frame?", new DoshaQuestion("Thin,bony and hardly gain weight.", "Medium built. Can gain or lose weight easily.", "Large built. Gain weight easily but hard to lose fat!"));
+        questionsAndAnswers.put("What is your preferred climate?", new DoshaQuestion("Enjoy warm climate but feel uncomfortable in the cold.", "Enjoy cold weather and dont like warm weather.", "Comfortable with any kind of weather."));
+        questionsAndAnswers.put("How do you talk and walk?", new DoshaQuestion("Fast walk and Talk.", "Moderate and Determined walk.", "Slow and steady walk"));
+        questionsAndAnswers.put("What is your Appetite like?", new DoshaQuestion("Irregular. Sometimes I feel like eating and sometimes I don't.", "Strong, Always feel hungry!", "I have my 3 meals without skipping any meal."));
+        questionsAndAnswers.put("What is your skin type?", new DoshaQuestion("Dry, Rough and cool", "Soft,oily, warm and bright", "Thick, oily, cool and white."));
+        questionsAndAnswers.put("What characteristics do your teeth have?", new DoshaQuestion("Protruding, crooked, gapped.", "Strong, white complete and well formed.", "Medium sized, yellowish with soft or bleeding gums."));
+        questionsAndAnswers.put("How would you describe your physical activity?", new DoshaQuestion("I am very active.", "I am moderately active.", "I am rather inert."));
+        questionsAndAnswers.put("How is your sleep pattern?", new DoshaQuestion("Little and interrupted.", "Little but sound.", "Good and persistent."));
+        questionsAndAnswers.put("How do you handle your money?", new DoshaQuestion("I spend quite a lot every month. I very impulse.", "Moderate and spend when required.", "I tend to save most of it."));
+        questionsAndAnswers.put("How do you describe your eyes?", new DoshaQuestion("Small, dry, active and brown  or black coloured.", "Sharp, penetrating.", "Large attractive, blue or hazel coloured."));
+        questionsAndAnswers.put("How is your memory?", new DoshaQuestion("Good short term and a bad long term memory.", "I generally remember all the details about everything.", "Slow but persistent."));
+        questionsAndAnswers.put("What is your natural hair texture?", new DoshaQuestion("Black, dry and curled", "Soft, oily and shiney.", "Strong, oily and wavy."));
+        questionsAndAnswers.put("What is the nature of your mind?", new DoshaQuestion("Mind tends to get restless easily.", "Mind gets impatient or aggresive easily.", "Mind remains cool and calm."));
+        questionsAndAnswers.put("Sweat and body odur", new DoshaQuestion("Sweat little but not much. Have minimal body odur", "Sweat a lot. Have medium body odur.", "Sweats a lot when working out and have a strong body odur."));
+        questionsAndAnswers.put("Some of the general signs?", new DoshaQuestion("Cracking sound in joints. Small forehead and nails are sensetive.", "Black moles on body. Medium forehead and the nails are pink and soft.", "Disproportionate body like heavy thighs, hips. Large forehead and nails are wide and white."));
+        questionsAndAnswers.put("How does your Mind react to taking actions?", new DoshaQuestion("Over thinks about everything.", "Quick Implementation.", "Lazy Implementation. Procrastinates a lot."));
+        questionsAndAnswers.put("Emotional Nature?", new DoshaQuestion("I worry a lot. Often feel nervous and anxious.", "I often get irritable, angry and impatient.", "Loving and caring nature. It takes a lot for me to get angry."));
+        //questionsAndAnswers.put("How do you relax and unwind?", new DoshaQuestion("Vata", "Pitta", "Kapha"));
+        //questionsAndAnswers.put("How is your endurance and stamina?", new DoshaQuestion("Vata", "Pitta", "Kapha"));
+        //questionsAndAnswers.put("What is your preferred leisure activity?", new DoshaQuestion("Vata", "Pitta", "Kapha"));
+        // Add more questions and options
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to the Ayurveda Dosha Analysis Chatbot!");
+        System.out.println("The Vata Pitta Kapha Test, also known as the Dosha Test in Ayurveda, holds paramount  importance in understanding one's unique mind-body constitution.");
+        System.out.println("This comprehensive assessment helps individuals identify the dominance of Vata, Pitta, and Kapha—three fundamental bioenergetic forces in Ayurveda.");
+        System.out.println("\nAnswer the following questions to determine your dosha balance.\n");
+
+        Map<String, Integer> doshaCounts = new HashMap<>();
+
+        for (Map.Entry<String, DoshaQuestion> entry : questionsAndAnswers.entrySet()) {
+            System.out.println(entry.getKey());
+            entry.getValue().displayOptions();
+            System.out.print("Your answer: ");
+            String userAnswer = scanner.nextLine().trim().toLowerCase();
+
+            if ("v".equals(userAnswer)) {
+                doshaCounts.merge("Vata", 1, Integer::sum);
+            } else if ("p".equals(userAnswer)) {
+                doshaCounts.merge("Pitta", 1, Integer::sum);
+            } else if ("k".equals(userAnswer)) {
+                doshaCounts.merge("Kapha", 1, Integer::sum);
+            } else {
+                System.out.println("Invalid choice. Skipping this question.");
+            }
+        }
+
+        System.out.println("\nDosha Analysis Results:");
+
+        int totalQuestions = questionsAndAnswers.size();
+
+        for (Map.Entry<String, Integer> doshaCount : doshaCounts.entrySet()) {
+            double percentage = (doshaCount.getValue() / (double) totalQuestions) * 100;
+            System.out.println(doshaCount.getKey() + ": " + String.format("%.2f", percentage) + "%");
+        }
+
+        System.out.println("\nDosha analysis complete. Thank you!");
+    }
+
+    static class DoshaQuestion {
+        private final String optionVata;
+        private final String optionPitta;
+        private final String optionKapha;
+
+        DoshaQuestion(String optionVata, String optionPitta, String optionKapha) {
+            this.optionVata = optionVata;
+            this.optionPitta = optionPitta;
+            this.optionKapha = optionKapha;
+        }
+
+        void displayOptions() {
+            System.out.println("V) " + optionVata);
+            System.out.println("P) " + optionPitta);
+            System.out.println("K) " + optionKapha);
+        }
+    }
+}

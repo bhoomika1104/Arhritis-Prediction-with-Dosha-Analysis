@@ -1,0 +1,82 @@
+Age,Height (cm),Weight (kg),Gender,Symptoms,Menopause,Food Intake,Vitamin D3 (IU/day),Calcium (mg/day),Blood Count (Hemoglobin g/dL),Other Information,Flaccidity Quotient,Muscle Strength (kg),Osteophyte Count,Bone Porosity (%),Space Reduction (mm)
+65,165,70,Female,"Joint pain, stiffness",Yes,"Balanced diet, dairy, vegetables",800,1000,13.5,History of hypertension,3,22,3,40,1.8
+58,172,85,Male,"Swelling, decreased motion",N/A,"High protein, low carb, supplements",600,900,14.8,Type 2 diabetes,4,25,4,35,2.0
+45,165,70,Female,"Joint stiffness, swelling",No,"Vegetarian, fruits, nuts",800,1000,12.8,None,2,20,2,38,1.7
+70,160,68,Female,"Joint pain, swelling",Yes,"Balanced diet, fish, green leafy veg.",700,1200,12.5,Osteoporosis,4,23,4,42,2.2
+62,175,90,Male,Pain during movement,N/A,"High fiber, low fat, red meat",900,800,14.0,Chronic kidney disease,3,26,5,37,1.9
+55,168,72,Female,"Stiffness, decreased motion",Yes,"Low carb, fruits, dairy",500,1100,13.0,Hypothyroidism,3,24,3,36,1.8
+63,160,75,Male,"Joint pain, tenderness",N/A,"High protein, low fat, nuts",700,950,14.2,High cholesterol,4,25,4,35,1.7
+59,170,78,Female,"Swelling, warmth",Yes,"Balanced diet, cereals, dairy",800,1000,13.7,Anemia,3,23,3,39,1.8
+50,169,80,Male,"Pain, stiffness",N/A,"High fiber, dairy, vegetables",900,950,14.0,Hypertension,4,24,4,35,2.0
+47,162,68,Female,"Pain, swelling",No,"Balanced diet, fruits, nuts",800,1000,12.5,Hypothyroidism,3,22,3,38,1.7
+55,170,85,Male,Pain during movement,N/A,"High protein, low carb",600,900,14.8,Type 2 diabetes,4,25,4,36,2.0
+58,160,67,Female,"Joint stiffness, pain",Yes,"Vegetarian, dairy",800,1100,13.0,None,2,20,3,37,1.9
+46,175,88,Male,"Swelling, warmth",N/A,"High fiber, green leafy vegetables",700,1200,13.7,Chronic kidney disease,3,23,3,34,1.8
+54,168,70,Female,"Stiffness, swelling",Yes,"Low carb, fruits, nuts",500,1000,12.8,Hypothyroidism,3,24,4,39,1.6
+59,160,74,Male,"Pain, decreased motion",N/A,"High protein, low carb",900,950,14.0,High cholesterol,4,25,5,33,1.7
+52,169,79,Female,"Pain, stiffness",Yes,"Balanced diet, dairy, nuts",800,1000,13.5,Hypertension,3,22,3,40,1.8
+53,165,73,Male,"Pain, swelling",N/A,"High protein, low fat",700,900,14.5,Type 2 diabetes,4,24,4,35,2.0
+48,163,70,Female,"Pain, stiffness",No,"Vegetarian, dairy",800,1100,13.0,None,2,21,3,38,1.7
+50,172,88,Male,"Swelling, warmth",N/A,"Balanced diet, vegetables",600,1200,14.0,Chronic kidney disease,3,23,4,34,1.9
+47,170,70,Female,"Pain, decreased motion",No,"Low carb, fruits, nuts",500,1000,13.8,Hypothyroidism,3,24,3,39,1.6
+49,160,75,Male,"Pain, stiffness",N/A,"High protein, low carb",900,900,14.7,High cholesterol,4,25,4,33,1.8
+55,169,80,Female,"Pain, swelling",Yes,"Balanced diet, dairy, vegetables",800,1000,13.6,Hypertension,3,22,3,36,1.7
+58,162,70,Male,"Pain, stiffness",N/A,"High protein, low fat",700,950,14.5,Type 2 diabetes,4,24,5,37,2.0
+54,165,68,Female,"Pain, stiffness",Yes,"Vegetarian, dairy",800,1000,12.5,None,2,21,3,35,1.9
+49,172,85,Male,"Pain, decreased motion",N/A,"High fiber, vegetables",600,1200,14.0,Chronic kidney disease,3,,,,
+58,172,85,Male,"Swelling, decreased motion",N/A,"High protein, low carb, supplements",600,900,14.8,Type 2 diabetes,4,25,4,35,2.0
+45,165,70,Female,"Joint stiffness, swelling",No,"Vegetarian, fruits, nuts",800,1000,12.8,None,2,20,2,38,1.7
+70,160,68,Female,"Joint pain, swelling",Yes,"Balanced diet, fish, green leafy veg.",700,1200,12.5,Osteoporosis,4,23,4,42,2.2
+62,175,90,Male,Pain during movement,N/A,"High fiber, low fat, red meat",900,800,14.0,Chronic kidney disease,3,26,5,37,1.9
+55,168,72,Female,"Stiffness, decreased motion",Yes,"Low carb, fruits, dairy",500,1100,13.0,Hypothyroidism,3,24,3,36,1.8
+63,160,75,Male,"Joint pain, tenderness",N/A,"High protein, low fat, nuts",700,950,14.2,High cholesterol,4,25,4,35,1.7
+59,170,78,Female,"Swelling, warmth",Yes,"Balanced diet, cereals, dairy",800,1000,13.7,Anemia,3,23,3,39,1.8
+50,169,80,Male,"Pain, stiffness",N/A,"High fiber, dairy, vegetables",900,950,14.0,Hypertension,4,24,4,35,2.0
+47,162,68,Female,"Pain, swelling",No,"Balanced diet, fruits, nuts",800,1000,12.5,Hypothyroidism,3,22,3,38,1.7
+55,170,85,Male,Pain during movement,N/A,"High protein, low carb",600,900,14.8,Type 2 diabetes,4,25,4,36,2.0
+58,160,67,Female,"Joint stiffness, pain",Yes,"Vegetarian, dairy",800,1100,13.0,None,2,20,3,37,1.9
+46,175,88,Male,"Swelling, warmth",N/A,"High fiber, green leafy vegetables",700,1200,13.7,Chronic kidney disease,3,23,3,34,1.8
+54,168,70,Female,"Stiffness, swelling",Yes,"Low carb, fruits, nuts",500,1000,12.8,Hypothyroidism,3,24,4,39,1.6
+59,160,74,Male,"Pain, decreased motion",N/A,"High protein, low carb",900,950,14.0,High cholesterol,4,25,5,33,1.7
+52,169,79,Female,"Pain, stiffness",Yes,"Balanced diet, dairy, nuts",800,1000,13.5,Hypertension,3,22,3,40,1.8
+53,165,73,Male,"Pain, swelling",N/A,"High protein, low fat",700,900,14.5,Type 2 diabetes,4,24,4,35,2.0
+48,163,70,Female,"Pain, stiffness",No,"Vegetarian, dairy",800,1100,13.0,None,2,21,3,38,1.7
+50,172,88,Male,"Swelling, warmth",N/A,"Balanced diet, vegetables",600,1200,14.0,Chronic kidney disease,3,23,4,34,1.9
+47,170,70,Female,"Pain, decreased motion",No,"Low carb, fruits, nuts",500,1000,13.8,Hypothyroidism,3,24,3,39,1.6
+49,160,75,Male,"Pain, stiffness",N/A,"High protein, low carb",900,900,14.7,High cholesterol,4,25,4,33,1.8
+55,169,80,Female,"Pain, swelling",Yes,"Balanced diet, dairy, vegetables",800,1000,13.6,Hypertension,3,22,3,36,1.7
+58,162,70,Male,"Pain, stiffness",N/A,"High protein, low fat",700,950,14.5,Type 2 diabetes,4,24,5,37,2.0
+54,165,68,Female,"Pain, stiffness",Yes,"Vegetarian, dairy",800,1000,12.5,None,2,21,3,35,1.9
+49,172,85,Male,"Pain, decreased motion",N/A,"High fiber, vegetables",600,1200,14.0,Chronic kidney disease,3,23,4,34,1.8
+55,170,85,Female,"Pain, stiffness",Yes,"Balanced diet, dairy, vegetables",800,1000,13.7,Hypertension,3,22,3,37,1.6
+48,160,72,Male,"Joint pain, stiffness",N/A,"High protein, low fat, vegetables",800,1000,13.9,Hypertension,3,24,3,34,1.7
+60,165,70,Female,"Pain, stiffness",Yes,"Balanced diet, dairy, vegetables",700,1100,12.9,Osteoarthritis,4,22,4,38,1.8
+54,170,85,Male,"Joint pain, swelling",N/A,"High protein, low carb, fish",900,900,14.4,Type 2 diabetes,4,25,5,35,2.0
+57,168,75,Female,Pain during movement,Yes,"Low carb, fruits, nuts",500,1200,13.0,Hypothyroidism,3,23,3,36,1.6
+52,172,80,Male,"Joint stiffness, swelling",N/A,"Balanced diet, green leafy vegetables",800,1000,14.2,High cholesterol,4,26,4,37,1.9
+49,160,70,Female,"Joint pain, tenderness",No,"Vegetarian, dairy",700,1100,12.7,None,2,21,2,35,1.7
+61,175,88,Male,"Pain, stiffness",N/A,"High fiber, red meat, vegetables",700,950,14.1,Chronic kidney disease,3,25,3,39,1.8
+56,168,72,Female,"Joint stiffness, swelling",Yes,"Low carb, fruits, nuts",500,1000,13.4,Hypothyroidism,3,24,4,38,1.7
+62,160,78,Male,"Joint pain, tenderness",N/A,"High protein, low carb",800,1000,14.5,High cholesterol,4,24,4,33,1.9
+55,170,80,Female,"Pain, swelling",Yes,"Balanced diet, dairy, vegetables",800,1000,13.6,Hypertension,3,22,3,36,1.8
+63,165,85,Male,Pain during movement,N/A,"High protein, low carb",900,900,14.9,Type 2 diabetes,4,25,5,35,2.0
+48,160,67,Female,"Joint pain, stiffness",No,"Vegetarian, dairy",800,1100,12.8,None,2,21,2,37,1.7
+61,172,88,Male,"Swelling, decreased motion",N/A,"High protein, low fat, fish",600,950,14.3,Chronic kidney disease,3,23,4,34,1.9
+57,168,70,Female,"Joint pain, stiffness",Yes,"Low carb, fruits, nuts",500,1100,13.2,Hypothyroidism,3,24,3,36,1.6
+49,160,74,Male,"Joint pain, swelling",N/A,"High protein, low carb",900,900,14.7,High cholesterol,4,25,4,33,1.8
+54,170,80,Female,"Joint pain, stiffness",Yes,"Balanced diet, dairy, nuts",800,1000,13.4,Hypertension,3,22,3,38,1.7
+52,162,70,Male,Pain during movement,N/A,"High protein, low fat",700,900,14.5,Type 2 diabetes,4,24,5,37,2.0
+60,165,68,Female,"Joint pain, swelling",Yes,"Vegetarian, dairy",700,1000,12.6,None,2,21,3,35,1.9
+58,172,85,Male,"Joint pain, tenderness",N/A,"High fiber, vegetables",600,900,14.0,Chronic kidney disease,3,23,4,34,1.8
+53,170,80,Female,"Joint pain, stiffness",Yes,"Low carb, fruits, nuts",500,1000,13.8,Hypothyroidism,3,24,3,39,1.6
+59,160,75,Male,"Pain, swelling",N/A,"High protein, low carb",900,900,14.7,High cholesterol,4,25,4,33,1.8
+50,169,80,Female,"Pain, stiffness",Yes,"Balanced diet, dairy, vegetables",800,1000,13.6,Hypertension,3,22,3,36,1.7
+56,165,85,Male,"Joint pain, swelling",N/A,"High protein, low carb",900,950,14.9,Type 2 diabetes,4,25,5,35,2.0
+51,162,70,Female,"Joint pain, stiffness",Yes,"Vegetarian, dairy",800,1100,12.8,None,2,21,2,37,1.7
+59,172,88,Male,"Swelling, decreased motion",N/A,"High protein, low fat, vegetables",600,950,14.3,Chronic kidney disease,3,23,4,34,1.9
+58,168,72,Female,"Joint pain, stiffness",Yes,"Low carb, fruits, nuts",500,1100,13.2,Hypothyroidism,3,24,3,36,1.6
+60,160,74,Male,"Joint pain, swelling",N/A,"High protein, low carb",900,900,14.7,High cholesterol,4,25,4,,
+"
+",,,,,,,,,,,,,,,
+"
+",,,,,,,,,,,,,,,
